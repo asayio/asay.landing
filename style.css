@@ -33,10 +33,6 @@ svg {
   transform: translateX(.2rem);
 }
 
-nav a:last-child {
-  line-height: 2.2rem;
-}
-
 .row {
   margin-left: -.5rem;
   margin-right: -.5rem;
