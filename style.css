@@ -15,26 +15,18 @@ svg {
   width: 1.5rem;
   margin-right: .5rem;
   bottom: -.3rem;
+  transition: all .2s ease;
+}
+.svg:hover svg {
+  transform: translateX(.2rem);
 }
 
 .svg.logo-svg svg {
   stroke-width: 2;
 }
-
 .svg.logo-svg:hover svg {
+  transform: none;
   fill: #d5008f;
-}
-
-.svg.cta-svg svg {
-  transition: all .2s ease;
-}
-
-.svg.cta-svg:hover svg {
-  transform: translateX(.2rem);
-}
-
-nav a:last-child {
-  line-height: 2.2rem;
 }
 
 .row {
