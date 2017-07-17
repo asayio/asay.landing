@@ -26,55 +26,31 @@ svg {
 }
 
 .svg.logo-svg svg {
-  fill: white;
+  fill: #d5008f;
   stroke-width: 2;
 }
 .svg.logo-svg:hover svg {
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
-  fill: #d5008f;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.svg.p-svg {
+  margin-top: -.2rem;
+}
+.svg.p-svg svg {
+  height: 1.3rem;
+  width: 1.3rem;
+  margin-right: .3rem;
+  bottom: -.35rem;
+}
+.svg.p-svg:hover svg {
+  -webkit-transform: translateX(.15rem);
+      -ms-transform: translateX(.15rem);
+          transform: translateX(.15rem);
 }
 
 .row {
   margin-left: -.5rem;
   margin-right: -.5rem;
 }
-
-/*.clear-sans {
-  font-family: 'Clear Sans';
-}
-
-svg {
-  stroke-width: 1;
-  height: 4rem;
-  width: 4rem;
-}
-
-.svg svg {
-  position: relative;
-  stroke-width: 1.5;
-  height: 1.5rem;
-  width: 1.5rem;
-  margin-right: .5rem;
-  bottom: -.3rem;
-  transition: all .2s ease;
-}
-.svg:hover svg {
-  transform: translateX(.2rem);
-}
-
-.svg.logo-svg svg {
-  fill: white;
-  stroke-width: 2;
-}
-.svg.logo-svg:hover svg {
-  transform: none;
-  fill: #d5008f;
-}
-
-.row {
-  margin-left: -.5rem;
-  margin-right: -.5rem;
-}
-*/
