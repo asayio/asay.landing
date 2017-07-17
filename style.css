@@ -1,0 +1,9 @@
+.clear-sans {
+  font-family: 'Clear Sans';
+}
+
+svg {
+  stroke-width: 1;
+  height: 4rem;
+  width: 4rem;
+}
