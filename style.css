@@ -1,5 +1,5 @@
 .clear-sans {
-  font-family: 'Clear Sans';
+  font-family: 'Clear Sans','Roboto',-apple-system,BlinkMacSystemFont,'Helvetica Neue', Helvetica, Ubuntu, Noto, 'Segoe UI', Arial, sans-serif;
 }
 
 svg {
