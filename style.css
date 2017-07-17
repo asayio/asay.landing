@@ -7,6 +7,7 @@ svg {
   height: 4rem;
   width: 4rem;
 }
+
 .svg svg {
   position: relative;
   stroke-width: 1.5;
@@ -19,6 +20,7 @@ svg {
 .svg:hover svg {
   transform: translateX(.2rem);
 }
+
 .svg.logo-svg svg {
   fill: white;
   stroke-width: 2;
