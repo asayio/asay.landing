@@ -7,3 +7,25 @@ svg {
   height: 4rem;
   width: 4rem;
 }
+
+nav svg {
+  position: relative;
+  stroke-width: 2;
+  height: 1.55rem;
+  width: 1.55rem;
+  bottom: -0.2em;
+  margin-right: 0.5rem;
+}
+
+nav a:hover svg {
+  fill: #d5008f;
+}
+
+nav a:last-child {
+  line-height: 2.2rem;
+}
+
+.row {
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
