@@ -15,6 +15,49 @@ svg {
   width: 1.5rem;
   margin-right: .5rem;
   bottom: -.3rem;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.svg:hover svg {
+  -webkit-transform: translateX(.2rem);
+      -ms-transform: translateX(.2rem);
+          transform: translateX(.2rem);
+}
+
+.svg.logo-svg svg {
+  fill: white;
+  stroke-width: 2;
+}
+.svg.logo-svg:hover svg {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  fill: #d5008f;
+}
+
+.row {
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
+
+/*.clear-sans {
+  font-family: 'Clear Sans';
+}
+
+svg {
+  stroke-width: 1;
+  height: 4rem;
+  width: 4rem;
+}
+
+.svg svg {
+  position: relative;
+  stroke-width: 1.5;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: .5rem;
+  bottom: -.3rem;
   transition: all .2s ease;
 }
 .svg:hover svg {
@@ -34,3 +77,4 @@ svg {
   margin-left: -.5rem;
   margin-right: -.5rem;
 }
+*/
