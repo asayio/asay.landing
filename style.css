@@ -20,19 +20,14 @@ svg {
   transition: all .2s ease;
 }
 .svg:hover svg {
-  -webkit-transform: translateX(.2rem);
-      -ms-transform: translateX(.2rem);
-          transform: translateX(.2rem);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .svg.logo-svg svg {
   fill: #d5008f;
   stroke-width: 2;
-}
-.svg.logo-svg:hover svg {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .svg.p-svg {
@@ -43,11 +38,6 @@ svg {
   width: 1.3rem;
   margin-right: .3rem;
   bottom: -.35rem;
-}
-.svg.p-svg:hover svg {
-  -webkit-transform: translateX(.15rem);
-      -ms-transform: translateX(.15rem);
-          transform: translateX(.15rem);
 }
 
 .row {
